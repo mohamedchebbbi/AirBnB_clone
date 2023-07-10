@@ -1,1 +1,47 @@
-![Image](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230710%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230710T135837Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=edb97a6b86e6d770bf250b754ba4c8317ef82e2b09b0d59c1b9f1a79d9657012)
+# AirBnB Clone
+
+## Project Description
+This project aims to create a clone of the popular AirBnB platform. The goal is to develop a command interpreter that allows users to manage AirBnB objects efficiently. The command interpreter will handle operations such as creating, retrieving, updating, and deleting objects. It will also support additional functionalities like counting, computing statistics, and more.
+
+## Command Interpreter Description
+The command interpreter is a Python-based tool that provides a command-line interface to interact with the AirBnB clone. It enables users to perform various operations on AirBnB objects through a set of predefined commands. By using the command interpreter, users can manage users, states, cities, places, and other entities related to the AirBnB platform.
+
+## Getting Started
+To get started with the AirBnB clone command interpreter, follow these steps:
+
+1. Clone the repository:
+
+git clone https://github.com/mohamedchebbbi/AirBnB_clone.git
+
+2. Install the necessary dependencies:
+
+pip install -r requirements.txt
+
+3. Run the command interpreter:
+
+./console.py
+
+4. Use the available commands to interact with the AirBnB clone. Type `help` to see a list of supported commands and their usage.
+
+## Examples
+Here are some examples of commands you can use in the command interpreter:
+
+- Create a new user:
+
+(hbnb) create User
+
+- Retrieve a place by ID:
+
+(hbnb) show Place 12345
+
+- Update the name of a city:
+
+(hbnb) update City 54321 name "New City Name"
+
+- Delete a user:
+
+(hbnb) destroy User 98765
+
+## Authors
+- Mohamed Chebbi (@mohamedchebbbi)
+- Asmaa Alouani (@JLasmaa)
